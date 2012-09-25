@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+        </title>
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css"
+        />
+        <link rel="stylesheet" href="my.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js">
+        </script>
+        <script src="my.js">
+        </script>
+    </head>
+    
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Home
+                </h3>
+            </div>
+            <div data-role="content">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a href="#page3" data-theme="" data-icon="">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page2" data-theme="" data-icon="">
+                                Services
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page5" data-theme="" data-icon="">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- about -->
+        <div data-role="page" id="page3">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    About
+                </h3>
+                <a data-role="button" data-transition="slide" href="#page1" class="ui-btn-left">
+                    Back
+                </a>
+            </div>
+            <div data-role="content">
+                <div style="width: 288px; height: 100px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;">
+                    <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute; top: 50%; left: 50%; margin-left: -16px; margin-top: -18px">
+                </div>
+                <div>
+                    <p>
+                        <b>
+                            psum is that it has a more-or-less normal distribution of letters, as
+                            opposed to using 'Content here, content here', making it look like readable
+                            English. Many desktop publishing packages and web page editors now use
+                            Lorem Ipsum as th
+                        </b>
+                    </p>
+                </div>
+            </div>
+            <div data-role="tabbar" data-iconpos="top" data-theme="a">
+                <ul>
+                    <li>
+                        <a href="#page3" data-theme="" data-icon="home">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page2" data-theme="" data-icon="star">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page5" data-theme="" data-icon="info">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- services -->
+        <div data-role="page" id="page2">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Services
+                </h3>
+                <a data-role="button" data-transition="slide" href="#page3" class="ui-btn-left">
+                    Back
+                </a>
+            </div>
+            <div data-role="content">
+                <a data-role="button" href="http://phonegap.com/">
+                    PhoneGap
+                </a>
+                <a data-role="button" href="http://jquery.com/">
+                    jQuery
+                </a>
+                <a data-role="button" href="#codiqa.com">
+                    codiqa
+                </a>
+            </div>
+            <div data-role="tabbar" data-iconpos="top" data-theme="a">
+                <ul>
+                    <li>
+                        <a href="#page3" data-theme="" data-icon="home">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page2" data-theme="" data-icon="star">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page5" data-theme="" data-icon="info">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- contact -->
+        <div data-role="page" id="page5">
+            <div data-theme="a" data-role="header">
+                <h3>
+                    Contact
+                </h3>
+                <a data-role="button" data-transition="slide" href="#page2" class="ui-btn-left">
+                    Back
+                </a>
+            </div>
+            <div data-role="content">
+                <img src="https://maps.googleapis.com/maps/api/staticmap?center=Madison, WI&amp;zoom=14&amp;size=288x200&amp;markers=Madison, WI&amp;sensor=false"
+                width="288" height="200">
+                <div>
+                    <p>
+                        <b>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                            1500s, when an unknown printer took a galley of type and scrambled it to
+                            ma
+                        </b>
+                    </p>
+                </div>
+            </div>
+            <div data-role="tabbar" data-iconpos="top" data-theme="a">
+                <ul>
+                    <li>
+                        <a href="#page3" data-theme="" data-icon="home">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page2" data-theme="" data-icon="star">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page5" data-theme="" data-icon="info">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+              //App custom javascript
+        </script>
+    </body>
+
+</html>
